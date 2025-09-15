@@ -1,0 +1,45 @@
+title: TSN-FRER 자동차 네트워크 이중화 연구
+description: Microchip LAN9662 TSN 스위치를 이용한 IEEE 802.1CB FRER 실제 하드웨어 구현 및 성능 평가
+author: 김현우
+email: hwkim3330@gmail.com
+
+# GitHub Pages 설정
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+# 메타데이터
+google_analytics: # GA ID 추가 가능
+show_downloads: true
+
+# 사이트 설정
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# 소셜 링크
+github_username: hwkim3330
+repository: tsn-frer-automotive-redundancy
+
+# SEO
+lang: ko-KR
+timezone: Asia/Seoul
+
+# 네비게이션
+nav_links:
+  - title: "홈"
+    url: "/"
+  - title: "논문"
+    url: "/Research_Paper_Full"
+  - title: "실험 결과"
+    url: "/results"
+  - title: "GitHub"
+    url: "https://github.com/hwkim3330/tsn-frer-automotive-redundancy"
+
+# 프로젝트 정보
+project:
+  name: "TSN-FRER 자동차 네트워크 이중화"
+  version: "1.0.0"
+  conference: "2025 KSAE 춘계학술대회"
+  hardware: "Microchip LAN9662 + Raspberry Pi CM4"
+  status: "구현 완료"
